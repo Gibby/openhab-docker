@@ -1,4 +1,4 @@
-# My changes
+# My Changes
 [![](https://images.microbadger.com/badges/image/gibby/openhab-docker.svg)](https://microbadger.com/images/gibby/openhab-docker "Get your own image badge on microbadger.com")
 
 Added the following CLI utilities:
