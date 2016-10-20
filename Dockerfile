@@ -78,7 +78,7 @@ RUN mkdir -p ${APPDIR}/userdata/logs && touch ${APPDIR}/userdata/logs/openhab.lo
 # Copy directories for host volumes
 RUN cp -a /openhab/userdata /openhab/userdata.dist && \
     cp -a /openhab/conf /openhab/conf.dist
-COPY files/entrypoint.sh /
+COPY files/entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 
 RUN chown -R openhab:openhab ${APPDIR}
