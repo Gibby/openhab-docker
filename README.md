@@ -1,3 +1,18 @@
+# My changes
+[![](https://images.microbadger.com/badges/image/gibby/openhab-docker.svg)](https://microbadger.com/images/gibby/openhab-docker "Get your own image badge on microbadger.com")
+
+Added the following CLI utilities:
+git
+telnet
+host
+curl
+vim
+ping
+mysql-client
+
+# Below is from original README
+
+
 # openHAB Docker Containers
 
 [![Build state](https://travis-ci.org/openhab/openhab-docker.svg?branch=master)](https://travis-ci.org/openhab/openhab-docker) [![Docker Image Layers](https://imagelayers.io/badge/openhab/openhab:latest.svg)](https://imagelayers.io/?images=openhab/openhab:latest 'Get your own badge on imagelayers.io') [![Docker Label](https://images.microbadger.com/badges/version/openhab/openhab:amd64-offline.svg)](https://microbadger.com/#/images/openhab/openhab:amd64-offline) [![Docker Stars](https://img.shields.io/docker/stars/openhab/openhab.svg?maxAge=2592000)](https://hub.docker.com/r/openhab/openhab/) [![Docker Pulls](https://img.shields.io/docker/pulls/openhab/openhab.svg?maxAge=2592000)](https://hub.docker.com/r/openhab/openhab/) [![Join the chat at https://gitter.im/openhab/openhab-docker](https://badges.gitter.im/openhab/openhab-docker.svg)](https://gitter.im/openhab/openhab-docker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)

@@ -24,9 +24,16 @@ RUN \
     apt-get update && \
     apt-get install --no-install-recommends -y \
       software-properties-common \
+      git \
+      telnet \
+      host \
+      curl \
+      vim \
       sudo \
       unzip \
       wget \
+      ping \
+      mysql-client \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Oracle Java
